@@ -5,7 +5,7 @@ En UNQfy existe una gran cantidad de temas musicales (tracks)  los cuales siempr
 Tambien se cuenta con una api, con la cual se puede pedir un album, un artista o una cancion, tambien es capaz de agregar un nuevo album, borrarlo y/o actualizarlo
 
 # Segunda Parte Docker
-<img src = "https://1000marcas.net/wp-content/uploads/2020/02/Docker-Logo.png">
+<img src = "https://1000marcas.net/wp-content/uploads/2020/02/Docker-Logo.png" width = 100 height = 100>
 En esta se cuenta con dos servicios, los cuales son Monitor y Notificacion. La tarea del Monitor es monitorear UNQify y comunicar si sufrio algun cambio y avisar a los interesados(algo asi como el patron observer).
 El Notificador notifica a los usuarios registrados en un UNQify si un artista agrego una nueva Cancion a su album.
 Estos Servicios se ejecutan simultáneamente a traves de una imagen levantada de Docker 
